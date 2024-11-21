@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  color: blueviolet;
+  background-color: orange;
+  text-align: center;
+  padding: 10px;
+  height: 50px;
+  font-size: 2em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.for {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+}
+.inputMe {
+  display: block;
+  width: 100%;
+  border: none;
+  color: black;
+  font-size: 16px;
+}
+.inputme:focus {
+  outline: none;
+}
+.modernButton {
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  background-color: orange;
+  padding: 12px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.inputContainer {
+  display: flex;
+}
+
+.todoList {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.todoItem {
+  width: 500px;
+  color: #353935;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.itemName {
+  font-weight: bold;
+  padding: 20px;
+}
+.line {
+  border: 1px solid #f4f4f4;
+}
+.deleteButton {
+  float: right;
+  padding: 12px 20px;
+  border: none;
+  background-color: orange;
+  color: white;
+  margin-top: -5px;
+  margin-right: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.doneButton {
+  float: right;
+  padding: 12px 20px;
+  border: none;
+  background-color: green;
+  color: white;
+  margin-top: -5px;
+  margin-right: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  background-color: orange;
+  padding: 10px;
+}
+.item {
+  margin: 50px;
+}
